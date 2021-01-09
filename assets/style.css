@@ -1,0 +1,121 @@
+body {
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  background-color: #FFE4E1;
+}
+
+textarea {
+  background: transparent;
+  border: .5px dashed #685155;
+  resize: none;
+  color: #815E5B;
+  border-left: 1px solid #685155;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url(—Pngtree—romantic\ beautiful\ rose\ flower\ background_977440.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #685155;
+  border-radius: 0;
+  border-bottom: 10px solid #685155;
+}
+
+.hdr-bckgrnd {
+  width: 50%;
+  display: inline-block;
+  background-color: #FFEBCD;
+  border-radius: 3%;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+#currentDay {
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.container-fluid {
+  margin-bottom: 100px;
+}
+
+img {
+  float: left;
+  width: 30%; 
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.description{
+  white-space: pre-wrap;
+  font-size: 20px;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid #ede2c5;
+}
+
+.hour {
+  background-color: #FFEBCD;
+  color: #815E5B;
+  border-top: 1px dashed #685155;
+  border-radius: 3%;
+  padding: 0;
+  text-align: left;
+}
+
+.past {
+  background-color: #CEC9AE;
+  color: #815E5B;
+}
+
+.present {
+  background-color: #F89C65;
+  color: #815E5B;
+}
+
+.future {
+  background-color: #9faa4e;
+  color: #815E5B;
+}
+
+.saveBtn {
+  border-left: 1px solid #ede2c5;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #FA8072;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 972px) {
+ img {
+   display: none;
+ }
+}
+
+@media screen and (max-width: 608px) {
+  .hour {
+    font-size: small;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+ }
