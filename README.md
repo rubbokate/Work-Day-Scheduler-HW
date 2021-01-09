@@ -10,5 +10,5 @@ On this webpage, you can put your schedule on this planner. You can save the pla
 
 ## Screenshots
 
-![Screenshot] (src/assets/IMG_5303.png)
+![Screenshot] (hw5/Work-Day-Scheduler-HW/assets/IMG_5303.png)
 
